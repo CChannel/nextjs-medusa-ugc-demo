@@ -82,7 +82,7 @@ const ProductActions: React.FC<ProductActionsProps> = ({ product }) => {
         )}
       </div>
 
-      <Button onClick={addToCart}>
+      <Button onClick={addToCart} className="lemonsquare--click--add-to-cart">
         {!inStock ? "Out of stock" : "Add to cart"}
       </Button>
     </div>

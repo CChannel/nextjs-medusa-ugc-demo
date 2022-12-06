@@ -150,6 +150,7 @@ const StripePaymentButton = ({
       <Button
         disabled={submitting || disabled || notReady}
         onClick={handlePayment}
+        className="lemonsquare--click--checkout"
       >
         {submitting ? <Spinner /> : "Checkout"}
       </Button>

@@ -16,12 +16,21 @@ const FeaturedProducts = () => {
           <p className="text-2xl-regular text-gray-900 max-w-lg mb-4">
             Our newest styles are here to help you look your best.
           </p>
-          <UnderlineLink href="/store">Explore products</UnderlineLink>
+          <UnderlineLink
+            href="/store"
+            className="lemonsquare--click--explore-products"
+          >
+            Explore products
+          </UnderlineLink>
         </div>
         <ul className="grid grid-cols-2 small:grid-cols-4 gap-x-4 gap-y-8">
           {data
             ? data.map((product) => (
-                <li key={product.id}>
+                <li
+                  key={product.id}
+                  className="lemonsquare--click--product-view"
+                  onClick={() => {}}
+                >
                   <ProductPreview {...product} />
                 </li>
               ))

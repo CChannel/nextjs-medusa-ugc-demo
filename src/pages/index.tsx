@@ -16,7 +16,7 @@ const Home: NextPageWithLayout = () => {
       />
       <Hero />
       <FeaturedProducts />
-      {/* <>
+      <div className="px-4">
         <div
           id="lemon-square-ugc"
           website_id="4be7c2f-1116-414e-8f33-a072d143d5d1"
@@ -25,30 +25,16 @@ const Home: NextPageWithLayout = () => {
           design_mode="false"
           locale=""
           current_tags=""
-          suppressHydrationWarning
         ></div>
-        <Script src="https://new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.js" />
-      </> */}
-
-      {/* <script async src="//www.instagram.com/embed.js"></script> */}
-      {/* <div
-        id="lemon-square-ugc"
-        website_id="foo"
-        grid="true"
-        data="[]"
-        design_mode="true"
-        locale=""
-        current_tags=""
-        suppressHydrationWarning
-      ></div>
-      <script
-        async
-        src="//new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.js"
-      ></script>
-      <link
-        rel="stylesheet"
-        href="//new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.css"
-      /> */}
+        <Script
+          async
+          src="https://new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.js"
+        />
+        <link
+          rel="stylesheet"
+          href="https://new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.css"
+        />
+      </div>
     </>
   )
 }

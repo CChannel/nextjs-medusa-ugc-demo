@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import Head from "@modules/common/components/head"
 import FeaturedProducts from "@modules/home/components/featured-products"
 import Hero from "@modules/home/components/hero"
@@ -18,13 +19,14 @@ const Home: NextPageWithLayout = () => {
       <FeaturedProducts />
       <div className="px-4">
         <div
-          id="lemon-square-ugc"
-          website_id="4be7c2f-1116-414e-8f33-a072d143d5d1"
+          // @ts-ignore
           grid="true"
+          website_id="4be7c2f-1116-414e-8f33-a072d143d5d1"
           data="[]"
           design_mode="false"
           locale=""
           current_tags=""
+          id="lemon-square-ugc"
         ></div>
         <Script
           async

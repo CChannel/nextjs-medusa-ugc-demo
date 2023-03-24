@@ -17,16 +17,46 @@ const Home: NextPageWithLayout = () => {
       />
       <Hero />
       <FeaturedProducts />
+      {/* <div className="px-4">
+        <div
+          website_id="c9f7ea8e-0cdb-4796-bad7-594597bfd0c2"
+          ugc_set_id="1"
+          id="lemon-square-ugc"
+          header="Instagramで話題"
+          subheader="わたしも使っています"
+          grid="true"
+          locale="{}"
+          current_tags=""
+          design_mode="false"
+          large_x="6"
+          large_y="1"
+          mid_x="3"
+          mid_y="2"
+          small_x="2"
+          small_y="3"
+        ></div>
+        <script src="//new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.js"></script>
+  <link rel="stylesheet" href="//new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.css">
+  <script async="" defer="" data-website-id="c9f7ea8e-0cdb-4796-bad7-594597bfd0c2" src="https://analytics.lemon.cchan.tv/lemonsquare.js"></script>
+      </div> */}
       <div className="px-4">
         <div
           // @ts-ignore
-          grid="true"
-          website_id="4be7c2f-1116-414e-8f33-a072d143d5d1"
-          data="[]"
-          design_mode="false"
-          locale=""
-          current_tags=""
+          website_id="c9f7ea8e-0cdb-4796-bad7-594597bfd0c2"
+          ugc_set_id="3"
           id="lemon-square-ugc"
+          header="Instagramで話題"
+          subheader="わたしも使っています"
+          grid="true"
+          locale="{}"
+          current_tags=""
+          design_mode="false"
+          large_x="6"
+          large_y="1"
+          mid_x="3"
+          mid_y="2"
+          small_x="2"
+          small_y="3"
         ></div>
         <Script
           async
@@ -35,6 +65,12 @@ const Home: NextPageWithLayout = () => {
         <link
           rel="stylesheet"
           href="https://new-lemon-square-public.s3.ap-northeast-1.amazonaws.com/ugc-embed-scripts/assets/index.css"
+        />
+        <script
+          async
+          defer
+          data-website-id="c9f7ea8e-0cdb-4796-bad7-594597bfd0c2"
+          src="https://analytics.alpha-lemon.cchan.tv/lemonsquare.js"
         />
       </div>
     </>

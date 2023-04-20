@@ -42,8 +42,8 @@ const Home: NextPageWithLayout = () => {
       <div className="px-4">
         <div
           // @ts-ignore
-          website_id="c9f7ea8e-0cdb-4796-bad7-594597bfd0c2"
-          ugc_set_id="3"
+          website_id="fae80df9-e7db-4e12-b2ec-a6ac34059f05"
+          ugc_set_id="5"
           id="lemon-square-ugc"
           header="Instagramで話題"
           subheader="わたしも使っています"

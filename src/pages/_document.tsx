@@ -18,7 +18,7 @@ class MyDocument extends Document {
           <script
             async
             defer
-            data-website-id="c9f7ea8e-0cdb-4796-bad7-594597bfd0c2"
+            data-website-id="fae80df9-e7db-4e12-b2ec-a6ac34059f05"
             src="https://analytics.alpha-lemon.cchan.tv/lemonsquare.js"
           ></script>
           {/* <link
